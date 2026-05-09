@@ -1,0 +1,16 @@
+/* ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+  display: none;
+} */
+
+.UkR3sY319PuaUNuUWks2K {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Mostra no hover */
+._1bGewp3tfzqAF6fVTFFUOz:hover .UkR3sY319PuaUNuUWks2K {
+  max-height: 100px;
+  opacity: 1;
+}

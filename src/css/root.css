@@ -1,0 +1,66 @@
+:root {
+  /* -------- BACKGROUND COLORS -------- */
+  --background-darker: 10, 10, 10; /* st-background */
+  --background: 17, 17, 17;  /* st-color-1 */
+  --background-lightish: 20, 20, 20;  /* st-color-3 */
+  --background-light: 24, 24, 24;  /* st-color-4 */
+  --background-lighter: 30, 30, 30;  /* st-color-2 */
+  --background-lightest: 38, 41, 41;  /* st-color-5 */
+  --background-lightest-2: 38, 38, 41;  /* st-color-6 */
+  /* ----------------------------------- */
+
+  /* -------- DEFAULT COLORS -------- */
+  --green: 0, 204, 106;
+  /*#00CC6A*/
+
+  --greenLightish: 51, 255, 153;
+  --greenLight: 102, 255, 178;
+  /*#66FFB2*/
+  --greenLightest: 153, 255, 204;
+
+  --darkishGreen: 0, 153, 79;
+  --darkGreen: 0, 102, 53;
+  /*#006635*/
+  --darkestGreen: 0, 51, 26;
+
+  --greenWhiteish: 204, 255, 229;
+  /*#CCFFE5*/
+  --greenWhite: 229, 255, 242;
+  /*#E5FFF2*/
+  --greenWhiteest: 242, 255, 248;
+
+  --greenWhiteDark: 153, 204, 178;
+  --greenWhiteDarkish: 178, 229, 204;
+  /* -------------------------------- */
+
+
+  /* -------- STATIC ACCENTS --------*/
+  /* accent */
+  --accentLightish: 51, 255, 153;
+  --accentLight: 102, 255, 178;
+  /* accent-2 */
+  --accentLightest: 153, 255, 204;
+  --accentDarkish: 0, 153, 79;
+  --accentDark: 0, 102, 53;
+  --accentDarkest: 0, 51, 26;
+
+  --textAccented: 0, 204, 106;
+  --textLightish: 204, 255, 229;
+  --textLight: 229, 255, 242;
+  --textLightest: 242, 255, 248;
+  --textDarkish: 178, 229, 204;
+  ;
+  --textDark: 153, 204, 178;
+  /* -------------------------------- */
+
+  --green-hover: 39, 185, 100;
+  --accent: 153, 255, 204;
+  --accent-hover: 39, 185, 100;
+
+  --red: 240, 74, 74;
+  --red-hover: 242, 99, 99;
+  --blue: 75, 137, 239;
+  --blue-hover: 100, 154, 242;
+  --yellow: 239, 141, 75;
+  --yellow-hover: 239, 141, 75;
+}

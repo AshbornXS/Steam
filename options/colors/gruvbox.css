@@ -1,0 +1,67 @@
+:root {
+  /* -------- BACKGROUND COLORS -------- */
+  --background-darker: 29, 32, 33;
+  /* mesmo do adw-view-bg-rgb */
+  --background: 40, 40, 40;
+  /* mesmo do adw-window-bg-rgb */
+  --background-lightish: 50, 48, 47;
+  /* intermediário suave */
+  --background-light: 60, 56, 54;
+  /* adw-headerbar/sidebar/dialog bg */
+  --background-lighter: 80, 73, 69;
+  /* contraste leve */
+  --background-lightest: 102, 92, 84;
+  /* título, seção, cartão leve */
+  --background-lightest-2: 124, 111, 100;
+  /* card mais leve */
+
+  /* -------- DEFAULT COLORS -------- */
+  --green: 152, 151, 26;
+  /* igual ao --adw-accent-bg-rgb */
+  --greenLightish: 184, 187, 38;
+  /* igual ao --adw-accent-rgb */
+  --greenLight: 198, 200, 50;
+  /* tom mais vibrante */
+  --greenLightest: 213, 196, 161;
+  /* puxa para o bg claro gruvbox */
+
+  --darkishGreen: 121, 116, 14;
+  --darkGreen: 100, 98, 0;
+  --darkestGreen: 76, 74, 0;
+
+  --greenWhiteish: 204, 196, 161;
+  --greenWhite: 235, 219, 178;
+  /* mesmo do adw-fg-rgb */
+  --greenWhiteest: 251, 241, 199;
+
+  --greenWhiteDark: 201, 190, 145;
+  --greenWhiteDarkish: 177, 168, 136;
+
+  /* -------- STATIC ACCENTS -------- */
+  --accentLightish: 215, 153, 33;
+  /* mesmo do --adw-warning-bg-rgb */
+  --accentLight: 250, 189, 47;
+  /* mesmo do --adw-warning-rgb */
+  --accentLightest: 255, 210, 87;
+  /* tom mais vibrante */
+  --accentDarkish: 204, 127, 0;
+  --accentDark: 168, 100, 0;
+  --accentDarkest: 128, 76, 0;
+
+  --textAccented: 152, 151, 26;
+  /* mesmo do --green */
+  --textLightish: 204, 196, 161;
+  --textLight: 235, 219, 178;
+  --textLightest: 251, 241, 199;
+  --textDarkish: 201, 190, 145;
+  --textDark: 177, 168, 136;
+
+  /* -------- INTERACTION COLORS -------- */
+  --green-hover: 184, 187, 38;
+  /* igual ao accent base */
+  --accent: 250, 189, 47;
+  --accent-hover: 255, 210, 87;
+  --yellow: 250, 189, 47;
+  /* gruvbox yellow */
+  --yellow-hover: 255, 210, 87;
+}

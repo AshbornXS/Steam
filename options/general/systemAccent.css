@@ -1,0 +1,16 @@
+:root {
+    --accent: var(--SystemAccentColor-RGB) !important;
+    --accentLightish: var(--SystemAccentColorLight1-RGB) !important;
+    --accentLight: var(--SystemAccentColorLight2-RGB) !important;
+    --accentLightest: var(--SystemAccentColorLight3-RGB) !important;
+    --accentDarkish: var(--SystemAccentColorDark1-RGB) !important;
+    --accentDark: var(--SystemAccentColorDark2-RGB) !important;
+    --accentDarkest: var(--SystemAccentColorDark3-RGB) !important;
+    --accentDarkest: var(--SystemAccentColorDark3-RGB) !important;
+
+    --textLightish: var(--SystemAccentColorLight2-RGB) !important;
+    --textLight: var(--SystemAccentColorLight3-RGB) !important;
+    --textLightest: var(--SystemAccentColorLight3-RGB) !important;
+    --textDarkish: var(--SystemAccentColorDark1-RGB) !important;
+    --textDark: var(--SystemAccentColorDark2-RGB) !important;
+}

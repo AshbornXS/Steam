@@ -1,0 +1,53 @@
+.game_area_purchase_game .steamdb_link {
+  position: unset !important;
+}
+
+/*^ Community Hub button size when moved into wishlist area via JS */
+.game_bg.application .queue_overflow_ctn a.community_hub_btn.btn_medium,
+.game_bg.application .queue_overflow_ctn .community_hub_btn>a.btn_medium {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  box-sizing: border-box !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 32px !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 12px !important;
+  border-radius: 8px !important;
+  line-height: 1 !important;
+  font-size: 0 !important;
+  overflow: hidden !important;
+  background: unset !important;
+  background-color: rgb(var(--green), 0.2) !important;
+}
+
+.game_bg.application .queue_overflow_ctn a.community_hub_btn.btn_medium:hover,
+.game_bg.application .queue_overflow_ctn .community_hub_btn>a.btn_medium:hover {
+  background: unset !important;
+  background-color: rgb(var(--green), 0.4) !important;
+}
+
+.game_bg.application .queue_overflow_ctn a.community_hub_btn.btn_medium span,
+.game_bg.application .queue_overflow_ctn .community_hub_btn>a.btn_medium span {
+  display: none !important;
+}
+
+.game_bg.application .queue_overflow_ctn a.community_hub_btn.btn_medium::before,
+.game_bg.application .queue_overflow_ctn .community_hub_btn>a.btn_medium::before {
+  content: "\f3bd";
+  display: block;
+  font-size: 22px;
+  color: rgb(var(--green));
+  font-family: FluentSystemIcons-Regular !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}

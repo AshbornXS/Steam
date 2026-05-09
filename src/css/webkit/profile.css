@@ -1,0 +1,317 @@
+/* Geral */
+.responsive {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-radius: 20px !important;
+}
+
+.profile_content {
+  border-radius: 10px !important;
+}
+
+a.screenshot_showcase_screenshot.modalContentLink {
+  border-radius: 5px !important;
+  border-color: transparent !important;
+}
+
+.profile_content.has_profile_background {
+  z-index: 0 !important;
+  margin-top: 0px !important;
+  padding-top: 5px !important;
+}
+
+.profile_rightcol {
+  border-radius: 10px !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Cabeçalhos */
+.profile_header_bg_texture {
+  width: 1050px !important;
+  min-height: 200px !important;
+  padding-bottom: 15px !important;
+  border-radius: 10px !important;
+}
+
+.profile_header_bg {
+  padding-bottom: 0 !important;
+  padding-top: 10px !important;
+  min-height: 226px !important;
+}
+
+.profile_header_content {
+  padding-top: 0px !important;
+}
+
+.profile_header_badgeinfo {
+  float: right !important;
+}
+
+.profile_header_badgeinfo_badge_area {
+  width: 268px !important;
+}
+
+.profile_header_badge {
+  border: 0 !important;
+  background-color: transparent !important;
+  height: 70px !important;
+  border-radius: 13px !important;
+}
+
+/* Botões */
+.btn_profile_action.btn_medium {
+  border-radius: 25px !important;
+  text-align: center !important;
+  border: 0 !important;
+}
+
+.btn_profile_action.btn_medium:hover {
+  border-radius: 25px !important;
+  text-align: center !important;
+  border: 0 !important;
+}
+
+.btn_profile_action>span {
+  background: transparent !important;
+}
+
+.btn_profile_action .btn_medium .img {
+  transform: rotate(180deg) scaleX(1) !important;
+}
+
+/* Comentários */
+.profile_comment_area .commentthread_footer {
+  border-top: 0 !important;
+}
+
+.profile_comment_area .commentthread_comment_container {
+  border-bottom: 0 !important;
+}
+
+.profile_comment_area .commentthread_entry_quotebox {
+  border: 0 !important;
+}
+
+.profile_comment_area .commentthread_header,
+.profile_leftcol_header {
+  background-color: transparent !important;
+}
+
+/* Amigos */
+.profile_friends .friend_block_v2 {
+  width: 280px !important;
+  background: rgba(var(--background-darker)) !important;
+}
+
+.profile_friends .friend_block_v2:hover {
+  background: var(--background) !important;
+}
+
+.profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element {
+  margin-bottom: 40px !important;
+}
+
+.profile_count_link.ellipsis {
+  font-size: 14px !important;
+  margin-bottom: 4px !important;
+  min-height: 29px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.profile_in_common.responsive_hidden {
+  margin-bottom: 6px !important;
+}
+
+.profile_topfriends.profile_count_link_preview {
+  display: block !important;
+}
+
+/* Personalização */
+.profile_customization {
+  border-radius: 10px !important;
+}
+
+.profile_xp_block {
+  border: 0 !important;
+  border-color: #181818 !important;
+  background-color: #181818 !important;
+}
+
+.profile_xp_block_remaining_bar_progress {
+  background-image: none !important;
+}
+
+.profile_customization_block {
+  padding: 10px !important;
+}
+
+.customtext_showcase {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.showcase_content_bg {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.showcase_notes {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bb_link {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* removes guide info */
+/* .workshop_showcase_item_details {
+  display: none !important;
+} */
+
+/* Ícones e imagens */
+img.game_capsule {
+  border-radius: 8px !important;
+}
+
+.game_info_achievements img {
+  border-radius: 5px !important;
+}
+
+.achievement_icons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.game_info_achievement.plus_more {
+  border-radius: 5px !important;
+}
+
+.achievement_icon {
+  display: none !important;
+}
+
+/* Links */
+a.whiteLink:hover {
+  color: rgba(var(--green)) !important;
+}
+
+a.svelte-1enlcvp {
+  display: none !important;
+}
+
+/* Outros */
+.profile_options_divider {
+  height: 0 !important;
+  border-top: 0 !important;
+}
+
+#profile_action_dropdown {
+  top: -5px !important;
+  left: 720px !important;
+  background: rgba(var(--background-darker)) !important;
+}
+
+.online .friendSmallText {
+  color: rgba(var(--green), 0.6) !important;
+}
+
+.showcase_achievementscompletionist_game_num_achievements {
+  background: rgba(var(--green), 0.6) !important;
+  border-radius: 7px !important;
+}
+
+.profile_subpage_general .maincontent {
+  border-left: 0 solid !important;
+  border-right: 0 solid !important;
+}
+
+
+
+
+
+
+
+
+
+/* Remoções e ocultações extras */
+.screenshot_showcase_stats {
+  display: none !important;
+}
+
+.achievement_progress_bar_ctn {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Fonte adicional */
+.profile_summary {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Ajustes de layout */
+.profile_header_actions {
+  white-space: nowrap !important;
+}
+
+.profile_friends.title_bar,
+.profile_groups.title_bar {
+  margin-top: 4px !important;
+}
+
+.profile_friends.title_bar,
+.profile_groups.title_bar {
+  background-color: rgba(255, 255, 255, .1) !important;
+}
+
+.profile_small_header_texture>h1,
+h2 {
+  padding-left: -40px !important;
+}
+
+.profile_small_header_texture>.profile_small_header_additional {
+  right: 36px !important;
+}
+
+.profile_leftcol_header>h2 {
+  padding-left: 0 !important;
+}
+
+div.profile_page.has_profile_background {
+  z-index: 0 !important;
+}
+
+/* Menus e botões extras */
+#profile_action_dropdown .popup_menu_item {
+  padding: 0px 12px !important;
+  line-height: 26px !important;
+}
+
+/* Comentários */
+.commentthread_header,
+.profile_leftcol_header {
+  border-bottom: 0 !important;
+  background-color: transparent !important;
+}
+
+.profile_comment_area .commentthread_entry_quotebox {
+  border-bottom: 0 !important;
+  border: 0 !important;
+}
+
+/* Badges e ícones */
+.game_info_badge_border {
+  border-radius: 13px !important;
+  max-width: 200px !important;
+  margin-top: 10px !important;
+}
+
+/* Avatares */
+.commentthread_user_avatar.playerAvatar.online {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: transparent !important;
+}
