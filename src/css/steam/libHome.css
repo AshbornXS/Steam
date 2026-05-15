@@ -338,15 +338,15 @@
 }
 
 ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover {
-  background: rgb(var(--green-hover));
+  background: rgb(var(--green-hover)) !important;
 }
 
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
-  background: rgb(var(--green));
+  background: rgb(var(--green)) !important;
 }
 
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
-  background: rgb(var(--green-hover));
+  background: rgb(var(--green-hover)) !important;
 }
 
 /* Info */
