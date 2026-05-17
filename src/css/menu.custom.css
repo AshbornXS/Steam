@@ -5,6 +5,7 @@ body.DesktopUI {
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
   min-width: unset !important;
+  max-height: 90%;
   padding: 3px !important;
   border-radius: 8px;
   background: unset;
