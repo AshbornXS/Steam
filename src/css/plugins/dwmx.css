@@ -1,26 +1,18 @@
 :root {
-  /*   --color-1: 17, 17, 17, 0.5 !important;
-  --color-2: 30, 30, 30, 0.5 !important;
-  --color-3: 20, 20, 20, 0.5 !important;
-  --color-4: 24, 24, 24, 0.5 !important;
-  --color-5: 38, 41, 44, 0.5 !important;
-  --color-6: 38, 38, 41, 0.5 !important;
-  --background: 10, 10, 10, 0.5 !important; */
-
   /* -------- BACKGROUND COLORS -------- */
-  --background-darker: 10, 10, 10, 0.5 !important;
+  --background-darker: 10, 10, 10, var(--st-mica-transparency, 50%) !important;
   /* background */
-  --background: 17, 17, 17, 0.5 !important;
+  --background: 17, 17, 17, var(--st-mica-transparency, 50%) !important;
   /* color-1 */
-  --background-lightish: 20, 20, 20, 0.5 !important;
+  --background-lightish: 20, 20, 20, var(--st-mica-transparency, 50%) !important;
   /* color-3 */
-  --background-light: 24, 24, 24, 0.5 !important;
+  --background-light: 24, 24, 24, var(--st-mica-transparency, 50%) !important;
   /* color-4 */
-  --background-lighter: 30, 30, 30, 0.5 !important;
+  --background-lighter: 30, 30, 30, var(--st-mica-transparency, 50%) !important;
   /* color-2 */
-  --background-lightest: 38, 41, 41, 0.5 !important;
+  --background-lightest: 38, 41, 41, var(--st-mica-transparency, 50%) !important;
   /* color-5 */
-  --background-lightest-2: 38, 38, 41, 0.5 !important;
+  --background-lightest-2: 38, 38, 41, var(--st-mica-transparency, 50%) !important;
   /* color-6 */
   /* ----------------------------------- */
 }
