@@ -6,7 +6,7 @@
   position: fixed;
   height: 100vh;
   min-height: unset;
-  border: 8px 0 0 8px;
+  border: var(--st-border-radius) 0 0 var(--st-border-radius);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -33,7 +33,7 @@
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz {
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background-color: rgb(var(--background-light));
 }
 
@@ -58,7 +58,7 @@
   width: 36px;
   height: 36px;
   margin-left: 12px;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background: rgb(var(--background-light));
   box-shadow: none;
 }
@@ -90,7 +90,7 @@
 }
 
 .chatWindow {
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background: rgb(var(--background));
 }
 
@@ -170,20 +170,20 @@
 
 .ChatSpeaker {
   padding: 6px 12px 0;
-  border-radius: 8px 8px 0 0;
+  border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
   background-color: rgb(var(--background-light));
 }
 
 .ChatMessageBlock:has(.msg._3qYm9oxf8MdyvQDJgbfCrF:nth-child(2) .chatImageContainer) .ChatSpeaker {
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
 }
 
 .msg._3qYm9oxf8MdyvQDJgbfCrF {
   width: fit-content;
   margin: 6px 0 0;
   padding: 6px 12px !important;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background-color: rgb(var(--background-light));
 }
 
@@ -191,7 +191,7 @@
   width: auto;
   margin: 0;
   padding: 0 12px 6px !important;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
   background-color: rgb(var(--background-light));
 }
 
@@ -212,7 +212,7 @@
 }
 
 .msg._3qYm9oxf8MdyvQDJgbfCrF .chatImageContainer .chatImageFull {
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
 }
 
 .msg._3qYm9oxf8MdyvQDJgbfCrF .FriendChatTimeStamp {
@@ -245,7 +245,7 @@
   width: -webkit-fill-available;
   height: 2px;
   margin: 0;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background-color: rgb(var(--background-lightest-2));
 }
 
@@ -259,7 +259,7 @@
   font-size: 11px;
   font-weight: 600;
   border: 2px solid rgb(var(--background-lightest-2));
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   color: #a7a7a7;
   background: rgb(var(--background-lighter));
 }
@@ -275,7 +275,7 @@
 .chatWindow .chatEntry {
   margin: 0 12px 24px;
   padding: 0 !important;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background-color: rgb(var(--background-lighter));
 }
 
@@ -284,7 +284,7 @@
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s {
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
   background-color: rgb(var(--background-lighter));
   box-shadow: none;
 }

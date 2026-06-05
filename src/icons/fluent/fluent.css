@@ -161,7 +161,7 @@
   display: none;
 }
 
-/* News, Userpannel */
+/* News, Userpanel */
 ._2Szzh5sKyGgnLUR870zbDE._5wILZhsLODVwGfcJ0hKmJ::before {
   content: "\f542" !important;
   font-size: 16px;
@@ -181,7 +181,7 @@
   display: none;
 }
 
-/* Alert, Userpannel */
+/* Alert, Userpanel */
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf::before {
   content: "\f115" !important;
   font-size: 16px;
@@ -201,7 +201,7 @@
   display: none;
 }
 
-/* VR, Userpannel */
+/* VR, Userpanel */
 ._2Szzh5sKyGgnLUR870zbDE._3lRfTo8Wo3phXfE1DvK6QW::before {
   content: "\f47b" !important;
   font-size: 16px;
@@ -216,7 +216,7 @@
   display: none;
 }
 
-/* BPM, Userpannel */
+/* BPM, Userpanel */
 ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog::before {
   content: "\edc3" !important;
   font-size: 16px;
@@ -231,7 +231,7 @@
   display: none;
 }
 
-/* Friends, Userpannel */
+/* Friends, Userpanel */
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F::before {
   content: "\f5b3" !important;
   font-size: 16px;
@@ -246,7 +246,7 @@
   display: none;
 }
 
-/* Family, Userpannel */
+/* Family, Userpanel */
 ._13vrqU6oOqmmxrsZSW5O39>div::before {
   content: "\f5c3" !important;
   font-size: 16px;
@@ -258,6 +258,21 @@
 }
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm {
+  display: none;
+}
+
+/* Settings, Userpanel */
+.st-steam-settings ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog::before {
+  content: "\f6b3" !important;
+  font-size: 16px;
+  color: #67707b;
+}
+
+.st-steam-settings ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog:hover::before {
+  color: #fff;
+}
+
+.st-steam-settings ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog>svg {
   display: none;
 }
 

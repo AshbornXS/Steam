@@ -821,7 +821,8 @@
   "Patches": [
     {
       "MatchRegexString": ".*",
-      "TargetCss": "src/css/regular.css"
+      "TargetCss": "src/css/regular.css",
+      "TargetJs": "src/js/regular.js"
     },
     {
       "MatchRegexString": ".*",
@@ -878,10 +879,6 @@
     {
       "MatchRegexString": ".Rp8QOGJ2DypeDniMnRBhr",
       "TargetCss": "src/css/startupLogin.custom.css"
-    },
-    {
-      "MatchRegexString": "^Steam Settings",
-      "TargetCss": "src/css/steam/settings.css"
     },
     {
       "MatchRegexString": "[data-theme-name=\"SpaceTheme Modded\"]",
