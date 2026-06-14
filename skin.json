@@ -62,7 +62,7 @@
     },
 
     "Always show sidebar": {
-      "description": "Always show the sidebar don't matter on which page (Except the download page) \n\n (If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community)",
+      "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
       "default": "yes",
       "tab": "General",
       "section": "Sidebar",
@@ -206,7 +206,7 @@
     },
 
     "Friend list button": {
-      "description": "Hide Friend list button from userpanel (only with Userpanel experimental)",
+      "description": "Hide Friend list button from userpanel",
       "default": "no",
       "tab": "General",
       "section": "Userpanel",
@@ -273,7 +273,7 @@
     },
 
     "System accent colors": {
-      "description": "Replaces the SpaceTheme accent colors with your system accent colors (Only works on Windows)",
+      "description": "Replaces the SpaceTheme accent colors with your system accent colors \n[i]Only works on Windows[/i]",
       "default": "no",
       "tab": "General",
       "section": "Other",
@@ -305,7 +305,7 @@
     },
 
     "Mica & Acrylic plugin support": {
-      "description": "Support for Mica and Acrylic plugin https://steambrew.app/plugin?id=b4c58634419b (Only works with the standard theme colors)",
+      "description": "Support for Mica and Acrylic plugin [url=https://steambrew.app/plugin?id=b4c58634419b]https://steambrew.app/plugin?id=b4c58634419b[/url] \n[i]Only works with the standard theme colors[/i]",
       "default": "no",
       "tab": "General",
       "section": "Other",
@@ -321,7 +321,7 @@
     },
 
     "Mica Transparency": {
-      "description": "This changes the transparency of the Mica effect. The default is 50%.",
+      "description": "This changes the transparency of the Mica effect. \n[i]Default: 50%[/i]",
       "default": 50,
       "tab": "General",
       "section": "Other",
@@ -372,7 +372,7 @@
     },
 
     "Max Width": {
-      "description": "This changes the width of the store. Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.",
+      "description": "This changes the width of the store. \n[i]Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.[/i]",
       "default": 1200,
       "tab": "Store",
       "section": "Pinned",
@@ -543,7 +543,7 @@
     },
 
     "Steam-Custom-Artworks Support": {
-      "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
+      "description": "The best support for [url=https://spacetheme.net/#steam-custom-artworks]https://spacetheme.net/#steam-custom-artworks[/url]",
       "default": "no",
       "tab": "Library",
       "section": "Pinned",
@@ -709,6 +709,38 @@
           "TargetCss": {
             "affects": ["^Steam$"],
             "src": "options/library/gamepage/playbarInBanner.css"
+          }
+        }
+      }
+    },
+
+    "Playbar play button only icon": {
+      "description": "Show only the icon in the play/install button",
+      "default": "no",
+      "tab": "Library",
+      "section": "Gamepage",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/library/gamepage/playbarOnlyIconPlayButton.css"
+          }
+        }
+      }
+    },
+
+    "Playbar play button center": {
+      "description": "Center text and icon in the play/install button",
+      "default": "no",
+      "tab": "Library",
+      "section": "Gamepage",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/library/gamepage/playbarCenterPlayButton.css"
           }
         }
       }

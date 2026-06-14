@@ -332,6 +332,14 @@ body.v6 .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ {
   align-items: center;
 }
 
+
+/** Live tag */
+body.v6 .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._2R1rYdwKuMFLsEb4WvJYdD {
+  top: 0;
+  left: 0;
+}
+
+
 /** Icons */
 body.v6 .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE {
   gap: 6px;
@@ -987,21 +995,6 @@ body.v6 div.leftcol:has(.highlight_ctn) {
   top: -4px;
 }
 
-/*^ Negative */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary {
-  color: rgb(var(--red));
-}
-
-/*^ Mixed */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.mixed {
-  color: rgb(var(--yellow));
-}
-
-/*^ Positive */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.positive {
-  color: rgb(var(--green));
-}
-
 /** Release Date */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .release_date {
   padding: 12px 0;
@@ -1413,34 +1406,14 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 
 /* on Wishlist icon */
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag {
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: unset;
-  width: 22px;
-  height: 22px;
-  padding: 0px;
-  font-size: 0;
-  border-radius: 8px;
-  background: unset;
-  background-color: rgb(var(--blue));
+  top: -6px !important;
+  left: -6px !important;
 }
 
-.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag::before {
-  content: "\f1f6";
-  position: absolute;
-  font-size: 14px;
-  color: #fff;
-  font-family: FluentSystemIcons-Filled !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+/* ds_option */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_options {
+  top: -12px !important;
+  right: -12px !important;
 }
 
 /* List more icon */
@@ -1483,12 +1456,6 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsules a {
   border-radius: 8px;
-}
-
-/* Options */
-.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview .ds_options,
-.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn .ds_options {
-  display: none;
 }
 
 /*^ Platform */
