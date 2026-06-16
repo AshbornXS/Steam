@@ -354,40 +354,6 @@ line {
 
 
 /*
-& Ban piracy plugins
-*/
-[class*="luatools" i] body>div,
-[data-millennium-plugin*="luatools" i] body>div,
-[data-manilua-button],
-[data-manilua-modal],
-[class*="manilua" i] body>div,
-[data-millennium-plugin*="manilua" i] body>div,
-[class*="lumea" i] body>div,
-[data-millennium-plugin*="lumea" i] body>div {
-  display: none !important;
-}
-
-
-[class*="luatools" i] body::before,
-[data-millennium-plugin*="luatools" i] body::before,
-[class*="manilua" i] body::before,
-[data-millennium-plugin*="manilua" i] body::before,
-[class*="lumea" i] body::before,
-[data-millennium-plugin*="lumea" i] body::before {
-  content: "Pls remove any piracy plugin to use this theme. stable: C:\\Program Files (x86)\\Steam\\plugins beta: C:\\Program Files (x86)\\Steam\\millennium\\plugins" !important;
-  display: block !important;
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  text-align: center;
-  transform: translate(-50%, -50%) !important;
-  color: #fff !important;
-}
-
-
-
-
-/*
 & Base
 */
 
@@ -1220,6 +1186,38 @@ html body.v6 .ds_wishlist_flag::before {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+}
+
+
+
+/*
+& Carousel container
+*/
+.carousel_container .carousel_thumbs {
+  display: flex;
+  gap: 6px;
+  width: fit-content;
+  min-height: unset;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border-radius: 100px;
+  background-color: rgb(var(--background-lighter), .8);
+}
+
+.carousel_container .carousel_thumbs>div {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  border-radius: 8px;
+  background-color: rgb(var(--background-lightest));
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel_container .carousel_thumbs>div.focus {
+  width: 24px;
+  background-color: rgb(var(--accent));
 }
 
 

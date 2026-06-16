@@ -12,6 +12,10 @@ button span,
   border-radius: 8px !important;
 }
 
+body button.DialogButton {
+  margin: 0;
+}
+
 .btn_medium>span,
 input.btn_medium {
   padding: 0 12px !important;

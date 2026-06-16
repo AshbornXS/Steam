@@ -385,6 +385,22 @@
       }
     },
 
+    "Tabs Section": {
+      "description": "Show more games in the \"Popular New Releases/Top Sellers/Popular Upcoming/...\" tabs section",
+      "default": "no",
+      "tab": "Store",
+      "section": "Home",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["https://.*\\.steampowered\\.com(/.*)?"],
+            "src": "options/store/home/tabsSection.css"
+          }
+        }
+      }
+    },
+
     "Broadcast": {
       "description": "Hide broadcasts on the store gamepage",
       "default": "no",
