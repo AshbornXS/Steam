@@ -49,10 +49,10 @@
   height: 240px;
   min-height: 240px;
   padding: 16px;
-  border: 3px solid rgb(var(--accent));
+  border: 3px solid rgb(var(--green));
   border-radius: 8px;
   background: unset !important;
-  background-color: rgb(var(--accent), 0.2) !important;
+  background-color: rgb(var(--green), 0.2) !important;
   box-shadow: unset !important;
 }
 

@@ -1217,7 +1217,7 @@ html body.v6 .ds_wishlist_flag::before {
 
 .carousel_container .carousel_thumbs>div.focus {
   width: 24px;
-  background-color: rgb(var(--accent));
+  background-color: rgb(var(--green));
 }
 
 

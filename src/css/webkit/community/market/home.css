@@ -101,7 +101,7 @@ body .market_header_bg {
 
 #myMarketTabs .market_tab_well_tab.market_tab_well_tab_active .market_tab_well_tab_contents {
   font-weight: 600;
-  color: rgb(var(--accent));
+  color: rgb(var(--green));
 }
 
 #myMarketTabs .pick_and_sell_button span {

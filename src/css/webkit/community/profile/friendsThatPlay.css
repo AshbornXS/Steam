@@ -14,7 +14,7 @@ html body:has(.friends_that_play_content) .profile_small_header_bg .profile_smal
 */
 html body:has(.friends_that_play_content) .profile_small_header_bg .profile_small_header_text .friendSmallText a {
     font-weight: 600;
-    color: rgb(var(--accent));
+    color: rgb(var(--green));
 }
 html body:has(.friends_that_play_content) .profile_small_header_bg .profile_small_header_text .friendSmallText a:hover {
     color: rgb(var(--accentLight));
@@ -40,7 +40,7 @@ body .friends_that_play_content .friendListSectionHeader {
 */
 body .friends_that_play_content .friendListSectionHeader a {
     margin: 0 3px;
-    color: rgb(var(--accent));
+    color: rgb(var(--green));
 }
 body .friends_that_play_content .friendListSectionHeader a:hover {
     color: rgb(var(--accentLight));
@@ -116,7 +116,7 @@ body .friends_that_play_content .profile_friends .friendBlock .playerAvatar img 
     background: unset;
 }
 body .friends_that_play_content .profile_friends .friendBlock.online .playerAvatar img {
-    border-color: rgb(var(--accent));
+    border-color: rgb(var(--green));
 }
 body .friends_that_play_content .profile_friends .friendBlock.awayOrSnooze .playerAvatar img {
     border-color: rgb(var(--yellow));
@@ -136,7 +136,7 @@ body .friends_that_play_content .profile_friends .friendBlock .friendBlockConten
     line-height: normal;
 }
 body .friends_that_play_content .profile_friends .friendBlock.online .friendBlockContent {
-    color: rgb(var(--accent));
+    color: rgb(var(--green));
 }
 body .friends_that_play_content .profile_friends .friendBlock.awayOrSnooze .friendBlockContent {
     color: rgb(var(--yellow));
@@ -164,7 +164,7 @@ body .friends_that_play_content .profile_friends .friendBlock .friendBlockConten
     bottom: 12px;
     right: 12px;
     font-weight: 600;
-    color: rgb(var(--accent));
+    color: rgb(var(--green));
 }
 body .friends_that_play_content .profile_friends .friendBlock .friendBlockContent .friendSmallText a:hover {
     color: rgb(var(--accentLight));

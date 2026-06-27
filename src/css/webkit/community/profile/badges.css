@@ -89,7 +89,7 @@
 .maincontent .profile_xp_block_mid .profile_xp_block_remaining_bar .profile_xp_block_remaining_bar_progress {
   height: 100%;
   background: unset;
-  background-color: rgb(var(--accent));
+  background-color: rgb(var(--green));
 }
 
 

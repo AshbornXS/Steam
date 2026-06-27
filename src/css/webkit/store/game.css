@@ -890,7 +890,7 @@ body.v6 div.leftcol:has(.highlight_ctn) {
   border: unset;
   border-radius: 100px;
   background: unset;
-  background-color: rgb(var(--accent));
+  background-color: rgb(var(--green));
 }
 
 .game_bg.application #game_highlights ._1DvsO7ezbpz3pIVBWOLOzF ._2kGps6wpqMKuwW2LinnWW6:hover {
@@ -1359,7 +1359,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
   width: 100%;
   margin-bottom: 6px;
   font-weight: 500;
-  color: rgb(var(--accent));
+  color: rgb(var(--green));
 }
 
 .game_bg.application .game_description_column .game_area_purchase .package_contents {

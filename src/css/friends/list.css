@@ -41,7 +41,7 @@
 /** Status Colors */
 /*^ Online */
 .friendlist .online ._3h-QRJGxnVOIExtHD1R0f2 {
-  border-color: rgb(var(--accent)) !important;
+  border-color: rgb(var(--green)) !important;
 }
 
 /*^ Away/Snooze */
@@ -77,7 +77,7 @@
 /*^ Online */
 .friendlist .online .nOdcT-MoOaXGePXLyPe0H,
 .friendlist .online .playerName {
-  color: rgb(var(--accent)) !important;
+  color: rgb(var(--green)) !important;
 }
 
 /*^ Away/Snooze */

@@ -271,7 +271,7 @@
 
 /* Custom icon */
 .search_page .st-search-view-toggle .st-btn.active::before {
-  color: rgb(var(--accent)) !important;
+  color: rgb(var(--green)) !important;
 }
 
 .search_page .st-search-view-toggle .st-btn.list::before {
@@ -509,7 +509,7 @@
 .search_page #additional_search_options .range_container .range_input::-webkit-slider-runnable-track {
   height: 4px;
   border-radius: 8px;
-  background-color: rgb(var(--accent));
+  background-color: rgb(var(--green));
 }
 
 .search_page #additional_search_options .range_container .range_input::-webkit-slider-thumb {
