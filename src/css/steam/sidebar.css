@@ -529,7 +529,7 @@ body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjV
 */
 div:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
   position: fixed !important;
-  bottom: calc(16px + 16px);
+  top: 40px;
   right: 50%;
   opacity: 1 !important;
   overflow: visible !important;
@@ -541,7 +541,7 @@ div[style*="height: 0px;"]:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
 }
 
 ._1_yS5UP7el0aN4vntx3dx ._2iJsgdTIX9Tj23rWnB7Q-c {
-  padding: 16px;
+  padding: 12px;
   border-radius: 8px;
   background-color: rgb(var(--blue));
   box-shadow: 0px 4px 8px 0px rgba(var(--background-darker), 0.5);

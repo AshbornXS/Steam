@@ -150,6 +150,7 @@ body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P {
     "icon title"
     "desc desc";
   justify-items: start;
+  max-width: unset;
   margin: 0;
   padding: 12px;
   background-color: rgb(var(--background-light)) !important;

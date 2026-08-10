@@ -121,6 +121,8 @@
 .Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._3SxgWhoEWiasRtCutBmix- {
   position: unset;
   flex-direction: column;
+  align-items: center;
+  gap: 0;
 }
 
 
@@ -234,6 +236,12 @@
 .Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._1mt2mPMVEDfpOhhWePy9hc ._3iVOCDb8eFFTeqiopupsej {
   display: none;
 }
+
+/*^ Space */
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._1mt2mPMVEDfpOhhWePy9hc ._1448SH49Bc8Zr5Bzzc5qkt.mLr-QNT8jgjJLM3neDrpL {
+  display: none;
+}
+
 
 /*
 & Login Window
@@ -353,11 +361,11 @@
 }
 
 .Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 ._35Q-UW9L8wv2fkImoWScgQ {
-  margin: 0;
+  margin: 0 !important;
   padding: 16px;
   border: none;
   border-radius: 8px;
-  background-color: rgb(var(--background-light));
+  background-color: rgb(var(--background-light)) !important;
 }
 
 /* QR Divs */

@@ -38,6 +38,12 @@
   left: unset !important;
 }
 
+@container style(--st-option-alwaysShowDownloadbar: on) {
+  ._1_yS5UP7el0aN4vntx3dx {
+    right: 16px !important;
+    left: unset !important;
+  }
+}
 
 /*
 ! Userpanel
