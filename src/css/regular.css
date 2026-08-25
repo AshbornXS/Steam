@@ -91,6 +91,75 @@ div.ModalPosition_TopBar {
 }
 
 
+/* Avatar */
+body .avatarHolder {
+  transform: unset !important;
+  padding: 2px !important;
+}
+
+body .avatarHolder.Large {
+  height: 76px !important;
+  width: 76px !important;
+  padding: 4px !important;
+}
+
+body .avatarHolder:has(.avatarFrame) {
+  padding: 0 !important;
+}
+
+
+body .avatarHolder .avatarStatus.right {
+  display: none !important;
+}
+
+
+body .avatarHolder .avatar {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  border-radius: var(--st-border-radius) !important;
+  box-shadow: none !important;
+}
+
+body .avatarHolder.online .avatar {
+  outline: 2px solid rgb(var(--blue)) !important;
+}
+
+body .avatarHolder.Large.online .avatar {
+  outline-width: 4px !important;
+}
+
+body .avatarHolder.awayOrSnooze .avatar {
+  outline: 2px solid rgb(var(--yellow)) !important;
+}
+
+body .avatarHolder.Large.awayOrSnooze .avatar {
+  outline-width: 4px !important;
+}
+
+body .avatarHolder.ingame .avatar {
+  outline: 2px solid rgb(var(--green)) !important;
+}
+
+body .avatarHolder.Large.ingame .avatar {
+  outline-width: 4px !important;
+}
+
+body .avatarHolder.offline .avatar {
+  outline: 2px solid #515151 !important;
+}
+
+body .avatarHolder.Large.offline .avatar {
+  outline-width: 4px !important;
+}
+
+body .avatarHolder:has(.avatarFrame) .avatar {
+  outline: unset !important;
+  border-radius: 0 !important;
+}
+
+
 /* Links */
 body a[href]:not(:has(> *)) {
   font-weight: 400 !important;

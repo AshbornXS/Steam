@@ -133,6 +133,14 @@ body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/internal"]
 & Account Tab
 */
 /*
+! Avatar
+*/
+body .DialogBody ._2SLehb0Hvx-jWmuv0gPqB- ._2Qyhcy1iiwhD1Mn6m4teKQ {
+  margin: 0 12px 0 0;
+}
+
+
+/*
 ! Add Funds & Privacy & Account Details buttons
 */
 body .DialogBody .onPxgvGKxGbKdE7dDWrMx {
@@ -203,4 +211,130 @@ body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P ._3wadwgMy2-9k8
 body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P ._3Wb9yDmYPUJksCr7HmaT9H {
   grid-area: desc;
   text-align: left;
+}
+
+
+
+/*
+& Family
+*/
+/*
+! Create or join button
+*/
+body .DialogBody .WIVHxIb79kMHNG7iA_Q9H {
+  margin: 12px 0;
+}
+
+
+body .DialogBody .WIVHxIb79kMHNG7iA_Q9H ._3W3GOfKp-DI8NI_UMouX-S {
+  display: none;
+}
+
+
+/*
+! List
+*/
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 {
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: var(--st-border-radius);
+  background-color: rgb(var(--background-lighter));
+}
+
+
+/** Title */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX {
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+/*^ Icon */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP {
+  display: flex;
+}
+
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP::before {
+  content: "\f5c3" !important;
+  font-size: 22px;
+  color: #b8bcbf;
+}
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP svg {
+  display: none;
+}
+
+
+/** Button */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 ._3epr8QYWw_FqFgMx38YEEm {
+  margin-bottom: 12px;
+}
+
+
+/** Member list */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection {
+  padding: 12px;
+  border-radius: var(--st-border-radius);
+  background-color: rgb(var(--background-lightish));
+}
+
+/*^ Title */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection .SettingsDialogSubHeader {
+  margin-bottom: 12px;
+  padding: 0;
+  letter-spacing: unset;
+  background: unset;
+}
+
+/*^ Member */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg {
+  margin: 0 0 6px !important;
+  padding: 12px !important;
+  background-color: rgb(var(--background-light));
+}
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* User Infos */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._2oSTSohQ1CZIgVn7E6_0Ft {
+  gap: 12px;
+  margin-right: auto;
+}
+
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._2oSTSohQ1CZIgVn7E6_0Ft .nOdcT-MoOaXGePXLyPe0H {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._2oSTSohQ1CZIgVn7E6_0Ft ._2Ri005Wg_uXDTa71kdRbcN {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Type */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._3VzCnvA_1SxskuCqmZkkHA ._1uvKF_UbD6VhnVdaRkXhbu {
+  display: none;
+}
+
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._3VzCnvA_1SxskuCqmZkkHA ._3C9nRrwzQk9qHlJx6NaXDI {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* Me */
+body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb5T262YUvg ._2W_HQa5Rhf-hHITgV5H0bu {
+  width: unset;
+  height: unset;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  border-radius: var(--st-border-radius);
+  color: #fff;
+  background-color: rgb(var(--green));
 }
