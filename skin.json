@@ -272,6 +272,20 @@
       }
     },
 
+    "Border radius": {
+      "description": "This changes the border radius of all elements. \n[i]Default: 8px[/i]",
+      "default": 8,
+      "tab": "General",
+      "section": "Other",
+      "slider": {
+        "cssVariable": "--st-border-radius",
+        "min": 0,
+        "max": 16,
+        "step": 1,
+        "unit": "px"
+      }
+    },
+
     "System accent colors": {
       "description": "Replaces the SpaceTheme accent colors with your system accent colors \n[i]Only works on Windows[/i]",
       "default": "no",
