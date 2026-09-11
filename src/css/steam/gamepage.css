@@ -230,29 +230,29 @@
   justify-content: flex-start;
   padding: 12px 16px;
   background: unset;
-  background-color: #4b89ef;
+  background-color: rgb(var(--blue));
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover {
   background: unset;
-  background-color: #649af2;
+  background-color: rgb(var(--blue-hover));
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play) {
-  background-color: #23a559;
+  background-color: rgb(var(--green));
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play):hover {
   background: none !important;
-  background-color: #27b964 !important;
+  background-color: rgb(var(--green-hover)) !important;
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash) {
-  background-color: #ef4b4b;
+  background-color: rgb(var(--red));
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash):hover {
-  background-color: #f26464;
+  background-color: rgb(var(--red-hover));
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg {
@@ -273,29 +273,29 @@
   margin: 0;
   border-radius: 8px;
   background: unset;
-  background-color: #4b89ef;
+  background-color: rgb(var(--blue));
 }
 
 ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
   background: unset;
-  background-color: #649af2;
+  background-color: rgb(var(--blue-hover));
 }
 
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
   background: none;
-  background-color: #23a559;
+  background-color: rgb(var(--green));
 }
 
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
-  background-color: #27b964;
+  background-color: rgb(var(--green-hover));
 }
 
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
-  background-color: #ef4b4b;
+  background-color: rgb(var(--red));
 }
 
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
-  background-color: #f26464;
+  background-color: rgb(var(--red-hover));
 }
 
 /*

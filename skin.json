@@ -61,6 +61,35 @@
       }
     },
 
+    "Sidebar fixed width": {
+      "description": "This fixes the sidebar width",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/fixedSidebar.css"
+          }
+        }
+      }
+    },
+    "Sidebar width": {
+      "description": "The width of the fixed sidebar \n[i]Default: 256px[/i]",
+      "default": 256,
+      "tab": "General",
+      "section": "Sidebar",
+      "slider": {
+        "cssVariable": "--st-fixed-sidebar-width",
+        "min": 256,
+        "max": 1600,
+        "step": 1,
+        "unit": "px"
+      }
+    },
+
     "Always show sidebar": {
       "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
       "default": "yes",
