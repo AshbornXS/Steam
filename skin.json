@@ -853,6 +853,22 @@
       }
     },
 
+    "New welcome page": {
+      "description": "New welcome page from the concept",
+      "default": "no",
+      "tab": "Library",
+      "section": "Experimental",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetJs": {
+            "affects": ["^Steam$"],
+            "src": "src/js/custom_header.js"
+          }
+        }
+      }
+    },
+
     "Hide group chat": {
       "description": "Hides the group chat section in the friends list",
       "default": "no",
