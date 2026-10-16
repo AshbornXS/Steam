@@ -1,0 +1,11 @@
+.friendlist .quickAccessFriends.compactQuickAccess .favoriteElement:has(.online) {
+  background: linear-gradient(225deg, rgb(var(--blue), .4), transparent 45%), rgb(var(--background-lighter));
+}
+
+.friendlist .quickAccessFriends.compactQuickAccess .favoriteElement:has(.awayOrSnooze) {
+  background: linear-gradient(225deg, rgb(var(--yellow), .4), transparent 45%), rgb(var(--background-lighter));
+}
+
+.friendlist .quickAccessFriends.compactQuickAccess .favoriteElement:has(.ingame) {
+  background: linear-gradient(225deg, rgb(var(--green), .4), transparent 45%), rgb(var(--background-lighter));
+}

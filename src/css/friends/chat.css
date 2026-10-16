@@ -108,7 +108,7 @@
   background: rgb(var(--background));
 }
 
-.chatWindow .chatHeader {
+.chatWindow .chatHeader:not(.titleBarContainer) {
   display: none;
 }
 

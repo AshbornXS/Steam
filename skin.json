@@ -46,7 +46,7 @@
     },
 
     "Always show sidebar": {
-      "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
+      "description": "Always show the sidebar don't matter on which page \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
       "default": "yes",
       "tab": "General",
       "section": "Sidebar",
@@ -439,6 +439,22 @@
           "TargetCss": {
             "affects": ["https://.*\\.steampowered\\.com(/.*)?"],
             "src": "options/store/home/tabsSection.css"
+          }
+        }
+      }
+    },
+
+    "Send a Gift Card button": {
+      "description": "Hide the Send a Gift Card button",
+      "default": "no",
+      "tab": "Store",
+      "section": "Home",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["https://.*\\.steampowered\\.com(/.*)?"],
+            "src": "options/store/home/giftCardButton.css"
           }
         }
       }
@@ -864,6 +880,22 @@
           "TargetJs": {
             "affects": ["^Steam$"],
             "src": "src/js/custom_header.js"
+          }
+        }
+      }
+    },
+
+    "Favorite friends status background": {
+      "description": "When the \"Compact favorite friends area\" is on then the cards will show a status background so you know if the user is online/offline/ingame",
+      "default": "yes",
+      "tab": "Friends & Chat",
+      "section": "Firends list",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": [".friendsui-container"],
+            "src": "options/friendsAndChat/list/compactFavFriendsStatusBackground.css"
           }
         }
       }
