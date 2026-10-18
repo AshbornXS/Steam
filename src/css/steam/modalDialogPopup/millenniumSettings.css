@@ -144,6 +144,58 @@ body .MillenniumDesktopSidebar {
 
 
 
+/*^ Plugin items without section */
+.MillenniumDesktopSidebar :is(.MillenniumDesktopSidebar_EditorContent, .MillenniumDesktopSidebar_EditorContent > div:not(.DialogBody, .DialogControlsSection, .eKmEXJCm_lgme24Fp_HWt))>.eKmEXJCm_lgme24Fp_HWt {
+  margin-top: -1px !important;
+  padding: 0 12px 6px !important;
+  background-color: rgb(var(--background-lighter));
+  transform: unset;
+}
+
+.MillenniumDesktopSidebar :is(.MillenniumDesktopSidebar_EditorContent, .MillenniumDesktopSidebar_EditorContent > div:not(.DialogBody, .DialogControlsSection, .eKmEXJCm_lgme24Fp_HWt))>.eKmEXJCm_lgme24Fp_HWt:first-child,
+.MillenniumDesktopSidebar :is(.MillenniumDesktopSidebar_EditorContent, .MillenniumDesktopSidebar_EditorContent > div:not(.DialogBody, .DialogControlsSection, .eKmEXJCm_lgme24Fp_HWt))> :not(.eKmEXJCm_lgme24Fp_HWt)+.eKmEXJCm_lgme24Fp_HWt {
+  margin-top: 0 !important;
+  padding-top: 12px !important;
+  border-top-left-radius: var(--st-border-radius);
+  border-top-right-radius: var(--st-border-radius);
+}
+
+.MillenniumDesktopSidebar :is(.MillenniumDesktopSidebar_EditorContent, .MillenniumDesktopSidebar_EditorContent > div:not(.DialogBody, .DialogControlsSection, .eKmEXJCm_lgme24Fp_HWt))>.eKmEXJCm_lgme24Fp_HWt:last-child,
+.MillenniumDesktopSidebar :is(.MillenniumDesktopSidebar_EditorContent, .MillenniumDesktopSidebar_EditorContent > div:not(.DialogBody, .DialogControlsSection, .eKmEXJCm_lgme24Fp_HWt))>.eKmEXJCm_lgme24Fp_HWt:has(+ :not(.eKmEXJCm_lgme24Fp_HWt)) {
+  margin-bottom: 12px !important;
+  padding-bottom: 12px !important;
+  border-bottom-left-radius: var(--st-border-radius);
+  border-bottom-right-radius: var(--st-border-radius);
+}
+
+/*^ Plugin custom headers divider */
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent>div:not(.eKmEXJCm_lgme24Fp_HWt)[style*="border-bottom"] {
+  border-bottom: none !important;
+}
+
+/*^ Plugin chrome native inputs */
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent ._2o2fXzn99OddeqZMjbDuxQ> :is(input:not([type="checkbox"], [type="radio"]), select) {
+  box-sizing: border-box;
+  min-height: 32px;
+  padding: 6px 12px !important;
+  font-family: inherit;
+  font-size: 14px;
+  border: none;
+  border-radius: var(--st-border-radius);
+  outline: none;
+  color: #fff;
+  background-color: rgb(var(--background-light));
+}
+
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent ._2o2fXzn99OddeqZMjbDuxQ> :is(input:not([type="checkbox"], [type="radio"]), select):hover {
+  background-color: rgb(var(--background-light), .8);
+}
+
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent ._2o2fXzn99OddeqZMjbDuxQ>input:is([type="checkbox"], [type="radio"]) {
+  accent-color: rgb(var(--accent));
+}
+
+
 
 /*
 & Navbar

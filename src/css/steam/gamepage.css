@@ -143,11 +143,11 @@
 
 
 /*
-& Gamepage info bar
+& Gamepage play bar
 */
 
 /*
-! Better Sticky info bar
+! Better Sticky play bar
 */
 ._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
   z-index: -999;
@@ -219,6 +219,10 @@
 /*
 ! Play/Install/... button
 */
+._2zxzStp5qY5M1evOm8keES {
+  margin: 0;
+}
+
 ._1FnJ6dPuknQFQ2RTpKTI16 {
   gap: 6px;
   min-width: unset !important;
@@ -264,7 +268,7 @@
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX ._33cnXIqTRgRr49_FNXIHj6 {
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
   letter-spacing: 0;
 }
@@ -299,14 +303,56 @@
 }
 
 /*
-! Achievements progressbar
+! Info
 */
-._25YVDTaClw6Y2COPsU0UaV {
-  background-color: rgb(var(--background-darker));
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws {
+  gap: 16px;
+  align-items: center;
+  margin-left: 16px;
 }
 
-._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
-  background-color: rgb(var(--green));
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws>div:not(:has(*)) {
+  display: none;
+}
+
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1kiZKVbDe-9Ikootk57kpA {
+  margin: 0;
+  padding: 0;
+}
+
+
+/** Icons */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1tIg-QIrwMNtCm7NcYADyi,
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3bkqc-SsCg0b3FTEuewlK8 {
+  display: none;
+}
+
+
+/** Content */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1kiZKVbDe-9Ikootk57kpA ._3m_zjRTQBqcfzCjXLXUHcR {
+  flex-direction: column-reverse;
+  padding: 0;
+}
+
+/*^ Info content */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3m_zjRTQBqcfzCjXLXUHcR ._2TYVGoD27ZMfjRirKQNLfk {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/*^ Info title */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3m_zjRTQBqcfzCjXLXUHcR ._34lrt5-Fc3usZU6trA1P0- {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  color: #666666;
+}
+
+
+/*^ Achievements progressbar */
+._25YVDTaClw6Y2COPsU0UaV {
+  display: none;
 }
 
 /*
@@ -318,14 +364,32 @@
 
 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q- {
   margin: 0;
-  padding: 6px;
-  border-radius: 8px;
   background-color: rgb(var(--background));
 }
 
 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q-:hover {
   background-color: rgb(var(--background-lightish));
 }
+
+
+/*
+! From you Steam library
+*/
+._3Y87YQY56ZCOqhgcZFaDc5 .z8GYwNt_nbBZrf7OVjs-s {
+  gap: 6px;
+  min-height: unset;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/** Button */
+._3Y87YQY56ZCOqhgcZFaDc5 .z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
+  font-weight: 600 !important;
+}
+
+
 
 /*
 & Gamepage game info box
@@ -378,11 +442,11 @@
 }
 
 /*
-! Gamepage game links bar
+& Gamepage game links bar
 */
-/*todo: add comments*/
 ._2r4TK4BAuU-J4FuF_O7v_5 {
   z-index: unset !important;
+  margin: 0;
   padding: 0;
 }
 
@@ -400,28 +464,37 @@
 
 ._3-V8vjmrwuJM6Ws3tsjFJj .DgVQapkBmhAW6oPY5rPZo {
   display: flex;
+  gap: 6px;
   height: unset !important;
 }
 
+/*
+! Links button
+*/
 ._7k4qmaN8SUMvv6u-L81uk {
   position: unset;
-  margin-right: 6px;
+  margin-right: 0;
   padding: 0;
 }
 
-.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ {
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ {
   padding: 6px 12px;
   border-radius: 8px;
   background-color: rgb(var(--background-light));
 }
 
-.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
   background-color: rgb(var(--background-lightish));
 }
 
-._1bIMOmWaxKrMdVMWU21ku {
-  position: absolute;
-  right: 0;
+/** Text */
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ ._2sNDjgK9EWiPLdNGkjun-w {
+  font-weight: 500;
+  color: #666666;
+}
+
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover ._2sNDjgK9EWiPLdNGkjun-w {
+  color: #fff;
 }
 
 /*
