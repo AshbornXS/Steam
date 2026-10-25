@@ -544,10 +544,6 @@
 /*
 ! Game card
 */
-._1pwP4eeP1zQD7PEgmsep0W:has(.mA39Hqv8LacDppegb_Q_Z) {
-  opacity: .6;
-}
-
 .WYgDg9NyCcMIVuMyZ_NBC {
   border: none;
   border-radius: 8px;
@@ -556,6 +552,16 @@
 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
   border-radius: 8px;
 }
+
+/* Images */
+.WYgDg9NyCcMIVuMyZ_NBC img {
+  filter: brightness(var(--st-darken-installed));
+}
+
+.WYgDg9NyCcMIVuMyZ_NBC:has(.mA39Hqv8LacDppegb_Q_Z) img {
+  filter: brightness(var(--st-darken-not-installed));
+}
+
 
 /* New to library */
 ._2jj5TjFhHD1lvxMlpJYek6 {
@@ -751,6 +757,11 @@
 
 ._1LJqx_qFOC8199RBQO5kU8._3lWVD8RYypVvbk60T5Vqcs {
   background-color: rgba(255, 104, 116, 1);
+}
+
+/* Friends */
+._3dncOt2dhpnFYQn-WYQ3Mb._1WWmQqppYq8c44A7nTMKUq {
+  bottom: -10px;
 }
 
 /*

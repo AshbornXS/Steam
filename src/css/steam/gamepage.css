@@ -33,7 +33,8 @@
 .QlR9EFwTdUNm_J5vx54_Z {
   overflow: hidden;
   height: 100%;
-  border-radius: 8px;
+  border-radius: var(--st-border-radius);
+  filter: brightness(var(--st-darken-banner));
 }
 
 .HNbe3eZf6H7dtJ042x1vM {
@@ -318,13 +319,6 @@
 ._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1kiZKVbDe-9Ikootk57kpA {
   margin: 0;
   padding: 0;
-}
-
-
-/** Icons */
-._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1tIg-QIrwMNtCm7NcYADyi,
-._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3bkqc-SsCg0b3FTEuewlK8 {
-  display: none;
 }
 
 

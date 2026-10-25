@@ -250,6 +250,22 @@
       }
     },
 
+    "Settings button": {
+      "description": "Hide Settings button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/stSettings.css"
+          }
+        }
+      }
+    },
+
     "Font": {
       "description": "Use a different font for the SteamUI",
       "default": "Be Vietnam Pro (default)",
@@ -388,7 +404,8 @@
           "TargetCss": {
             "affects": ["^SP Overlay:"],
             "src": "src/css/overlay.custom.css"
-          }
+          },
+          "TargetJs": { "affects": [".*"], "src": "src/js/overlay.js" }
         }
       }
     },
@@ -688,18 +705,44 @@
     },
 
     "Darken not installed games": {
-      "description": "Darkens game cards when they are not installed",
-      "default": "yes",
+      "description": "Darkens game cards when they are not installed. 20% means darken 100% no darken \n[i]Default: 60%[/i]",
+      "default": 60,
       "tab": "Library",
       "section": "Home",
-      "values": {
-        "no": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/home/undarkUninstalled.css"
-          }
-        },
-        "yes": {}
+      "slider": {
+        "cssVariable": "--st-darken-not-installed",
+        "min": 20,
+        "max": 100,
+        "step": 10,
+        "unit": "%"
+      }
+    },
+
+    "Darken installed games": {
+      "description": "Darkens game cards when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
+      "default": 100,
+      "tab": "Library",
+      "section": "Home",
+      "slider": {
+        "cssVariable": "--st-darken-installed",
+        "min": 20,
+        "max": 100,
+        "step": 10,
+        "unit": "%"
+      }
+    },
+
+    "Darken gamepage banner": {
+      "description": "Darkens game banners when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
+      "default": 100,
+      "tab": "Library",
+      "section": "Gamepage",
+      "slider": {
+        "cssVariable": "--st-darken-banner",
+        "min": 20,
+        "max": 100,
+        "step": 10,
+        "unit": "%"
       }
     },
 
@@ -816,6 +859,22 @@
           "TargetCss": {
             "affects": ["^Steam$"],
             "src": "options/library/gamepage/playbarCenterPlayButton.css"
+          }
+        }
+      }
+    },
+
+    "Hide playbar info icons": {
+      "description": "Hides the icons that are displayed in the playbar for the infos like playtime/...",
+      "default": "yes",
+      "tab": "Library",
+      "section": "Gamepage",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/library/gamepage/hideIconsInPlayPanel.css"
           }
         }
       }
