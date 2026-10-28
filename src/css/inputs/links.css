@@ -1,0 +1,12 @@
+/* Links */
+body :not(:has(ul>li))>a[href]:not(:has(> *)) {
+  font-weight: 400;
+}
+
+body :not(:has(ul>li))>a[href]:not(:has(> *), .whiteLink) {
+  color: rgb(255, 255, 255);
+}
+
+body :not(:has(ul>li))>a[href]:not(:has(> *)):hover {
+  color: rgb(var(--green-hover));
+}
