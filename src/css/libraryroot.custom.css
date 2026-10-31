@@ -11,6 +11,7 @@
 /** Plugins */
 @import url("./plugins/hltb.css");
 @import url("./plugins/sizeOnDisk.css");
+@import url("./plugins/friendsPanel.css");
 
 @import url("./custom/custom_header.css");
 
