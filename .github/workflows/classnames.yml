@@ -2,7 +2,7 @@ name: Update Steam class names
 
 on:
   push:
-    branches: [main]
+    branches: [Modded]
     paths: [".github/classnames.json"]
   workflow_dispatch:
 
