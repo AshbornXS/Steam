@@ -149,7 +149,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
   height: 200px;
   padding: 0;
   border-radius: 8px;
-  background-image: var(--st-game-hero, none), linear-gradient(180.00deg, rgb(var(--green), .6), rgb(var(--bakcground)) 112%);
+  background-image: var(--st-game-hero, none), linear-gradient(180.00deg, rgb(var(--green), .6), rgb(var(--background)) 112%);
   background-position: center;
   background-size: cover;
 }
