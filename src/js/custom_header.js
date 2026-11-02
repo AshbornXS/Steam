@@ -185,7 +185,6 @@
     // Quando o hero carregar com sucesso, extraímos a cor e aplicamos no botão
     hero.addEventListener('load', () => applyHeroAccent(hero), { once: true });
     chain(hero, art.hero, () => hero.remove());
-    chain(hero, art.hero, () => hero.remove());
     const logo = block.querySelector('.gd-cont-logo');
     const title = block.querySelector('.gd-cont-name');
     logo.addEventListener('load', () => title.remove(), { once: true });

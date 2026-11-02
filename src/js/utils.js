@@ -1,20 +1,21 @@
 export const waitForElement = (selector, parent = document) => new Promise((resolve) => {
-  const el = parent.querySelector(selector);
-  if (el) {
-    resolve(el);
-  }
-
-  const observer = new MutationObserver(() => {
+  let settled = false;
+  let observer;
+  const check = () => {
     const el = parent.querySelector(selector);
     if (!el) {
       return;
     }
 
+    settled = true;
     resolve(el);
     observer.disconnect();
-  });
+  };
 
-  observer.observe(document.body, {
+  observer = new MutationObserver(check);
+  check();
+
+  if (!settled) observer.observe(parent, {
     subtree: true,
     childList: true,
   });

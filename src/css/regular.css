@@ -97,6 +97,25 @@ div.ModalPosition_TopBar {
   background: rgb(var(--background-lighter));
 }
 
+/* Keep keyboard focus visible without changing the resting button style. */
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid rgb(var(--green));
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 
 /* Icons */
 .title-area .title-area-icon .SVGIcon_Button line,
